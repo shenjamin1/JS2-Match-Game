@@ -33,7 +33,7 @@ function setList() {
 }
 
 function flipCard(id) {
-    if (totalMatches < 8 && document.getElementById(id).src == "JS2-Match-Game/img/questionmark.png) {
+    if (totalMatches < 8 && document.getElementById(id).src == "JS2-Match-Game/img/questionmark.png") {
         if (id === '1') {document.getElementById(id).src = img1;}
         if (id === '2') {document.getElementById(id).src = img2;}
         if (id === '3') {document.getElementById(id).src = img3;}
