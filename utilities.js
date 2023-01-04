@@ -33,7 +33,7 @@ function setList() {
 }
 
 function flipCard(id) {
-    if (totalMatches < 8 && document.getElementById(id).src == "https://shenjamin1.github.io/JS2-Project/img/questionmark.png") {
+    if (totalMatches < 8) {
         if (id === '1') {document.getElementById(id).src = img1;}
         if (id === '2') {document.getElementById(id).src = img2;}
         if (id === '3') {document.getElementById(id).src = img3;}
